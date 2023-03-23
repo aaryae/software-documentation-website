@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Software Documentation</title>
+</head>
+
+<body>
+    <nav>
+        <div class="stickytable">
+            <div class="topic">Software Documentation</div>
+            <div class="tablecontent">
+
+                <a href="#introduction">Introduction</a>
+                <a href="#importance">Why is it important</a>
+                <a href="#Types">Types of software documentation</a>
+                <a href="#creation">practices for creating software documentataion</a>
+                <a href="#examples">Examples of software documentation</a>
+                <a class="last" href="#tools">software documentation tools</a>
+
+            </div>
+
+        </div>
+    </nav>
+    <section>
+        <div class="realcontent">
+            <div class="introduction"  id="introduction">
+                <h1>Introduction</h1>
+                <hr>
+                <h3>What is Software documentation?</h3>
+                <p>In the software development process, software documentation is the information that describes the
+                    product to the people who develop, deploy and use it.<br><br>
+
+                    It includes the technical manuals and online material, such as online versions of manuals and help
+                    capabilities. The term is sometimes used to refer to source information about the product discussed
+                    in
+                    design documentation, code comments, white papers and session notes.<br><br>
+
+                    Software documentation is a way for engineers and programmers to describe their product and the
+                    process
+                    they used in creating it in formal writing. Early computer users were sometimes simply given the
+                    engineers' or programmers' notes. As software development became more complicated and formalized,
+                    technical writers and editors took over the documentation process.<br><br>
+
+                    Software documentation shows what the software developers did when creating the software and what IT
+                    staff and users must do when deploying and using it. Documentation is often incorporated into the
+                    software's user interface and also included as part of help documentation. The information is often
+                    divided into task categories, including the following:</p>
+                <ul>
+                    <li>evaluating</li>
+                    <li>planning</li>
+                    <li>setting up or installing</li>
+                    <li>customizing</li>
+                    <li>administering</li>
+                    <li>using</li>
+                    <li>maintaining</li>
+                </ul>
+
+            </div>
+            <div class="importance" id="importance">
+                <h1>Why is it important?</h1>
+                <hr>
+                <h3>Why is software documentation important?</h3>
+                <p>
+                    Software documentation provides information about a software program for everyone involved in its
+                    creation, deployment and use. Documentation guides and records the development process. It also
+                    assists with basic tasks such as installation and troubleshooting.<br><br>
+
+                    Effective documentation gets users familiar with the software and makes them aware of its features.
+                    It can have a significant role in driving user acceptance. Documentation can also reduce the burden
+                    on support teams, because it gives users the power to troubleshoot issues.<br><br>
+
+                    Software documentation can be a living document that is updated over the software development
+                    lifecycle. Its use and the communication it encourages with users provides developers with
+                    information on problems users have with the software and what additional features they need.
+                    Developers can respond with software updates, improving customer satisfaction and user experience.
+                </p>
+            </div>
+
+
+            <div class="types" id="Types">
+                <h1>Types of software documentation</h1>
+                <hr>
+                <p>The two main types of software documentation are internal and external.</p>
+                <h2>Internal software documentation</h2>
+                <p>Developers and software engineers create internal documentation that is used inside a company.
+                    Internal documentation may include the following:
+                </p>
+                <ul>
+                    <li>Administrative documentation.</li>
+                    <p>This is the high-level administrative guidelines, roadmaps and product requirements for the
+                        software development team and project managers working on the software. It also may include
+                        status reports and meeting notes.</p>
+                    <li>Developer documentation.</li>
+                    <p> This provides instructions to developers for building the software and guides them through the
+                        development process. It includes requirements documentation, which describes how the software
+                        should perform when tested. It also includes architectural documentation that focuses on how all
+                        the components and features work together, and details data flows throughout the product.</p>
+                </ul>
+                
+                <h4 class="underline">Types of software requirements</h4>
+                <table >
+                    <tr>
+                        <th>Business requirements</th>
+                        <th>User requirements</th>
+                        <th>Software requirements</th>
+                    </tr>
+                    <tr>
+                        <td>Outline measureable goals for the business.</td>
+                        <td>Reflect specific user needs or expectations.</td>
+                        <td> Identify features, functions, non-functional requirements and use cases.</td>
+                    </tr>
+                    <tr>
+                        <td>Define the why behind a software project.</td>
+                        <td>Describe the who of a software project.</td>
+                        <td>Delve into the how of a software project.</td>
+                    </tr>
+                    <tr>
+                        <td>Maintain a BRD with requirements, updates or changes.</td>
+                        <td>Create a URS, or make them part of the BRD.</td>
+                        <td>Compose and SRS, and , optionally , an FRS.</td>
+                    </tr>
+                </table>
+                
+
+
+
+                <h2>External software documentation</h2>
+                <p> Software developers create this documentation to provide IT managers and end users with information
+                    on
+                    how to deploy and use the software. External documentation includes the following:</p>
+
+                <ul>
+                    <li> End-user documentation. </li>
+                    <p>This type gives end users basic instructions on how to use, install and
+                        troubleshoot the software. It might provide resources, such as user guides, knowledge bases,
+                        tutorials
+                        and release notes.</p>
+                    <li>Enterprise user documentation.</li>
+                    <p>Enterprise software often has documentation for IT staff who deploy the
+                        software across the enterprise. It may also provide documentation for the end users of the
+                        software.</p>
+                    <li>Just-in-time documentation.</li>
+                    <p>This provides end users with support documentation at the exact time they
+                        will need it. This allows developers to create a minimal amount of documentation at the release
+                        of a
+                        software product and add documentation as new features are added. It is based on the Agile
+                        software
+                        development These can be knowledge bases, FAQ pages and how-to documents.</p>
+                </ul>
+            </div>
+
+            <div class="pratices" id="creation">
+                <h1>Best practices for creating software documentation</h1>
+                <hr>
+                <p>There are six common best practices for creating software documentation. They are the following:</p>
+                <ul>
+                    <li>Understand user needs.</li>
+                    <p>Developers must understand user needs and pain points from the start of the development process.
+                        The documentation should address those needs and provide help around pain points.</p>
+                    <li>Write easily understood doucmentation.</li>
+                    <p>Documentation should be concise, simple and avoid complex jargon. It should use terms and phrases
+                        that the intended audience would use.</p>
+                    <li>Include internal subject matter experts.</li>
+                    <p>It can help to have experienced team members and subject matter experts in the software
+                        documentation process to ensure that it is accurate.</p>
+                    <li>Use analytics feedback.</li>
+                    <p> Analytics applications provide important feedback that can be incorporated into documentation.
+                    </p>
+                    <li>Ask for user feedback.</li>
+                    <p> After a release, ask users what they liked and disliked about a software product and use the
+                        input to improve both the product and its documentation.</p>
+                    <li>Provide continuous maintenance.</li>
+                    <p>As software is updated and maintained, the accompanying documentation should also be updated.
+                        Teams must constantly improve documentation as IT and user questions reveal additional needs.
+                    </p>
+
+                </ul>
+            </div>
+            <div class="examples" id="examples">
+                <h1>Examples of software documentation</h1>
+                <hr>
+                <p>Some examples of software documentation include the following:</p>
+                <ul>
+                    <li>System documentation.</li><p> This includes architectural diagrams that detail the structure of the software and its technical design.</p>
+                    <li>Application programming interface (API) documentation.</li><p> This is the reference documentation for calling APIs. It establishes standards for API communication and ensures that different APIs work smoothly together.</p>
+                    <li>README files</li><p>A README file is a high-level representation of software that usually comes with the source code.</p>
+                    <li>Release notes.</li><p>Release notes review the new features and bug fixes included in each release of a software program.</p>
+                    <li>How-to guides.</li><p>These take IT staff or end users through the steps needed to deploy or use the software.</p>
+                    <li>Tutorials</li><p> Tutorials take users through a series of steps to learn how to use the software or about a specific feature.</p>
+                    <li>Reference documents.</li><p>These provide IT and end users with technical documentation of the software.</p>
+                    <li>Explanations</li><p> These clarify a particular element of the software for the user.</p>
+                </ul>
+            </div>
+           <div class="documentation" id="tools">
+            <h1>Software documentation tools</h1>
+            <hr>
+            <p>Various tools help vendors and developers automate the documentation process. Some important features of leading software documentation tools include the following:</p>
+            <ul>
+                <li>Markdown and HTML support. </li><p>Markdown and HTML are two programming languages that software documentation is commonly written in. Markdown is an abbreviated form of HTML.</p>
+                <li>Feedback.</li><p>A good documentation tool will have the option to collect and review user feedback. In some cases, users contribute entire code examples. This feature may connect users and developers via email or a comments option. Some tools allow users to look at and make changes to certain code.</p>
+                <li>Access control.</li><p>This feature enables multiple documentation writers to contribute to one piece of documentation. It controls access with roles and permissions.</p>
+                <li>Click-button APIs.</li><p>With this capability, users are able to run APIs from the documentation.</p>
+                <li>Table of contents.</li><p>Documentation tools should enable writers to create a table of contents to simplify navigation.</p>
+                <li>Publishing control.</li><p> Writers can publish and unpublish pages as needed.</p>
+            </ul>
+           </div>
+
+        </div>
+    </section>
+</body>
+
+</html>

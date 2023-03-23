@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Baloo+2&family=Inconsolata:wght@200;300&family=Indie+Flower&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.stickytable {
+    border: 2px solid black;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: rgb(236, 233, 233);
+}
+
+.topic {
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.tablecontent {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+
+}
+
+.tablecontent a {
+    text-decoration: none;
+    border-top: 2px solid black;
+    padding: 15px 0px 15px 15px;
+    color: black;
+}
+
+.tablecontent a:hover {
+    font-weight: bold;
+    background-color: rgb(255, 254, 254);
+    transition: 0.2s ease-in-out;
+}
+
+.last {
+    border-bottom: 2px solid black;
+}
+
+/* fixed wala finished */
+.realcontent{
+    padding:30px;
+    margin-top:30px;
+    line-height:25px;
+}
+.introduction,.importance,.types,.pratices,.examples,.documentation{
+    font-size:1.2rem;
+    margin-top:40px;
+
+}
+.introduction h1, .importance h1, .types h1 ,.pratices h1,.examples h1,.documentation h1{
+    font-size:3rem;
+    margin-bottom:10px;
+    line-height:40px;
+}
+.introduction h3, .importance h3, .types h3 ,.pratices h3{
+    margin-top:30px;
+    margin-bottom:10px;
+}
+.types h2 ,.pratices h2{
+    margin-top:30px;
+    margin-bottom:10px;
+}
+.types li , .pratices li,.examples li,.documentation li{
+    font-weight:bold;
+}
+hr{
+    margin-bottom:20px;
+}
+ table {
+    border:2px solid black;
+    border-collapse: collapse;
+    max-width:800px;
+    margin:0 auto;
+}
+th{
+    border:2px solid black;
+    background:rgb(16, 90, 16);
+    color:rgb(0, 0, 0);
+}
+td{
+    border:2px solid black;
+    background:rgb(193, 206, 193);
+   
+}
+
+/* td:nth-child(2){
+    background:white;
+    
+} */
+.underline{
+    text-decoration: underline;
+    margin-bottom:20px;
+}
